@@ -1,7 +1,7 @@
 ALGORITHM algorithm_name
 VAR
     sentlength := 0
-    c : CHAR
+    c : string
     vowel-count := 0
 BEGIN
     
