@@ -1,0 +1,15 @@
+ALGORITHM algorithm_name
+VAR
+    rental km : integer;
+    a:FLOAT;
+
+BEGIN
+   read(rental km)
+   IF (rental km>=0) and (rental km <=100 )THEN
+   a:=(rental km * 0.7)
+   ELSE_IF (rental km>=101) and (rental km <=1000 ) THEN
+   a:=(rental km * 0.4)
+   ELSE_IF (rental km>=1001)
+    a:=(rental km * 0.2)
+   END_IF
+END

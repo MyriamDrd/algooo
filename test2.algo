@@ -1,0 +1,15 @@
+ALGORITHM algorithm_name
+VAR
+    x:integer = 5
+    y:integer = 10
+    z:integer = 0
+    a:integer
+
+
+BEGIN
+   a := y
+   y := x
+   x := z
+   z := a
+
+END

@@ -1,0 +1,26 @@
+ALGORITHM workshop
+VAR
+    a:STRING="john"
+    b:boolean=false
+    x:integer=5
+    y:integer=2
+    /* variable sans valeur = undefined*/
+    /*read : ce que l user va ecrire*/
+    /*switch : condition sur un seul variable 
+    default = else (like if condiction) 
+    apres case on note break pour sortir de la boucle si la condtion est vrai*/
+    
+
+BEGIN
+      
+      IF (x=y) THEN
+        write("good idea")
+      ELSE_IF (x>y) THEN
+         write("try again")
+      ELSE
+        set_instructions
+      END_IF
+       
+      END_IF
+    
+END
